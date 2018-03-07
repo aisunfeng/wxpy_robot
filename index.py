@@ -3,7 +3,7 @@
 
 from wxpy import *
 import config
-bot = Bot()
+bot = Bot(console_qr=2)
 tuling = Tuling(api_key= config.CONFIG['tuling_api_key'])
 
 # my_friend = ensure_one(bot.friends().search('大华'))
